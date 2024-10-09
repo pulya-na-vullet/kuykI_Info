@@ -1,0 +1,2907 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_abc96a94732f915b57de45458b0fc59d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_abc96a94732f915b57de45458b0fc59d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_abc96a94732f915b57de45458b0fc59d = L.map(
+                "map_abc96a94732f915b57de45458b0fc59d",
+                {
+                    center: [55.717974, 49.325091],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a1e37b7b8045ee68f8f541ac7bc85a16 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a1e37b7b8045ee68f8f541ac7bc85a16.addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var marker_2a30b18446f034cfbdde7aadfb2e9519 = L.marker(
+                [55.717974, 49.325091],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_6cbe4e36a34810a4a9339df1dc738f04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a30b18446f034cfbdde7aadfb2e9519.setIcon(icon_6cbe4e36a34810a4a9339df1dc738f04);
+        
+    
+        var popup_21d469a269be5a0e63001b6ec093b25f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a7a4ecc8f6c47146d2cc9c2ed46cc3 = $(`<div id="html_a1a7a4ecc8f6c47146d2cc9c2ed46cc3" style="width: 100.0%; height: 100.0%;">Имя: Антон Адрес: 24_2</div>`)[0];
+                popup_21d469a269be5a0e63001b6ec093b25f.setContent(html_a1a7a4ecc8f6c47146d2cc9c2ed46cc3);
+            
+        
+
+        marker_2a30b18446f034cfbdde7aadfb2e9519.bindPopup(popup_21d469a269be5a0e63001b6ec093b25f)
+        ;
+
+        
+    
+    
+            var marker_049014c61f2b1f06d650c2130dacad2f = L.marker(
+                [55.718567, 49.3243],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_92b030d562eeb68d5f60d2eef973da07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_049014c61f2b1f06d650c2130dacad2f.setIcon(icon_92b030d562eeb68d5f60d2eef973da07);
+        
+    
+        var popup_067804b53637635ea27cc4bea39f4867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c067b1b5d3bbd61e882955fda04e5d40 = $(`<div id="html_c067b1b5d3bbd61e882955fda04e5d40" style="width: 100.0%; height: 100.0%;">Имя: Екатерина Адрес: 25_112а_2</div>`)[0];
+                popup_067804b53637635ea27cc4bea39f4867.setContent(html_c067b1b5d3bbd61e882955fda04e5d40);
+            
+        
+
+        marker_049014c61f2b1f06d650c2130dacad2f.bindPopup(popup_067804b53637635ea27cc4bea39f4867)
+        ;
+
+        
+    
+    
+            var marker_4b86d7df17014f011d068ef843888944 = L.marker(
+                [55.718841, 49.321417],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_a99385404be1fc2dda3dc25c4ea69728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4b86d7df17014f011d068ef843888944.setIcon(icon_a99385404be1fc2dda3dc25c4ea69728);
+        
+    
+        var popup_17d607d46e50f3a4453c4949712d3539 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3377b13bd78a1da03c802f16e6d6faa2 = $(`<div id="html_3377b13bd78a1da03c802f16e6d6faa2" style="width: 100.0%; height: 100.0%;">Имя: Альбина Адрес: 24_68_1</div>`)[0];
+                popup_17d607d46e50f3a4453c4949712d3539.setContent(html_3377b13bd78a1da03c802f16e6d6faa2);
+            
+        
+
+        marker_4b86d7df17014f011d068ef843888944.bindPopup(popup_17d607d46e50f3a4453c4949712d3539)
+        ;
+
+        
+    
+    
+            var marker_c9d8a67f21d90b40d0ad73e8781a7ef5 = L.marker(
+                [55.717873, 49.325711],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_4302981940bff9a933974109d80b0a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9d8a67f21d90b40d0ad73e8781a7ef5.setIcon(icon_4302981940bff9a933974109d80b0a52);
+        
+    
+        var popup_b99c210cef8013eb7e2b35f64c185930 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_001a25df9dfdfe34cf38037e06cb14eb = $(`<div id="html_001a25df9dfdfe34cf38037e06cb14eb" style="width: 100.0%; height: 100.0%;">Имя: Ильфат Адрес: 24_4_1</div>`)[0];
+                popup_b99c210cef8013eb7e2b35f64c185930.setContent(html_001a25df9dfdfe34cf38037e06cb14eb);
+            
+        
+
+        marker_c9d8a67f21d90b40d0ad73e8781a7ef5.bindPopup(popup_b99c210cef8013eb7e2b35f64c185930)
+        ;
+
+        
+    
+    
+            var marker_69f5a4b49ec77df004d898ef783fe2ea = L.marker(
+                [55.718613, 49.324013],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_244b78be117da0734f68bad278eb86c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69f5a4b49ec77df004d898ef783fe2ea.setIcon(icon_244b78be117da0734f68bad278eb86c1);
+        
+    
+        var popup_0d763e1715edbf3a9a29b3479589fe9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d10f60d1ae52d6be7eb937da9006816 = $(`<div id="html_7d10f60d1ae52d6be7eb937da9006816" style="width: 100.0%; height: 100.0%;">Имя: Ринат Адрес: 25_112</div>`)[0];
+                popup_0d763e1715edbf3a9a29b3479589fe9e.setContent(html_7d10f60d1ae52d6be7eb937da9006816);
+            
+        
+
+        marker_69f5a4b49ec77df004d898ef783fe2ea.bindPopup(popup_0d763e1715edbf3a9a29b3479589fe9e)
+        ;
+
+        
+    
+    
+            var marker_7984bdf026b8b6fd832cbea4f53aca58 = L.marker(
+                [55.718583, 49.324228],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_1ed35da57ca5dc87494a6260c63d7ce2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7984bdf026b8b6fd832cbea4f53aca58.setIcon(icon_1ed35da57ca5dc87494a6260c63d7ce2);
+        
+    
+        var popup_b1c1132764f30e440b81f1b4ed21fd1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fee6f3e17494dd1d8939ac0bd6d1ffa7 = $(`<div id="html_fee6f3e17494dd1d8939ac0bd6d1ffa7" style="width: 100.0%; height: 100.0%;">Имя: Надежда Адрес: 25_112а_1</div>`)[0];
+                popup_b1c1132764f30e440b81f1b4ed21fd1d.setContent(html_fee6f3e17494dd1d8939ac0bd6d1ffa7);
+            
+        
+
+        marker_7984bdf026b8b6fd832cbea4f53aca58.bindPopup(popup_b1c1132764f30e440b81f1b4ed21fd1d)
+        ;
+
+        
+    
+    
+            var marker_b86a6181217f2b7f15a047000f08bea4 = L.marker(
+                [55.718785, 49.321381],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_93d2c2a309348c9cb7c8bb5edb93d495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b86a6181217f2b7f15a047000f08bea4.setIcon(icon_93d2c2a309348c9cb7c8bb5edb93d495);
+        
+    
+        var popup_ce98d0a33d1247d7b9f1442af9c9a6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58cb82402236346dff2b8b499d9bf276 = $(`<div id="html_58cb82402236346dff2b8b499d9bf276" style="width: 100.0%; height: 100.0%;">Имя: Булат Адрес: 24_68_2</div>`)[0];
+                popup_ce98d0a33d1247d7b9f1442af9c9a6f7.setContent(html_58cb82402236346dff2b8b499d9bf276);
+            
+        
+
+        marker_b86a6181217f2b7f15a047000f08bea4.bindPopup(popup_ce98d0a33d1247d7b9f1442af9c9a6f7)
+        ;
+
+        
+    
+    
+            var marker_94f34600a0f279ca64d0e7e4df39be5a = L.marker(
+                [55.717873, 49.325711],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_f80cda265ce64c4d90328753a29edefe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94f34600a0f279ca64d0e7e4df39be5a.setIcon(icon_f80cda265ce64c4d90328753a29edefe);
+        
+    
+        var popup_6f030b6dc147027673b01f9e1dea3592 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b631079ce7d10e98db17ff7a25098e2 = $(`<div id="html_6b631079ce7d10e98db17ff7a25098e2" style="width: 100.0%; height: 100.0%;">Имя: Динэ Адрес: 24_4_2</div>`)[0];
+                popup_6f030b6dc147027673b01f9e1dea3592.setContent(html_6b631079ce7d10e98db17ff7a25098e2);
+            
+        
+
+        marker_94f34600a0f279ca64d0e7e4df39be5a.bindPopup(popup_6f030b6dc147027673b01f9e1dea3592)
+        ;
+
+        
+    
+    
+            var marker_e33d3ae03194a2fc8981d3c52918378f = L.marker(
+                [55.7184, 49.324875],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_63cb2e1b847a4d2748414de6874e1c63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e33d3ae03194a2fc8981d3c52918378f.setIcon(icon_63cb2e1b847a4d2748414de6874e1c63);
+        
+    
+        var popup_d4cd14216a872cf3b9f4dc21c93907ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2de7f1dad5f2e6d8d01e5eb969c07021 = $(`<div id="html_2de7f1dad5f2e6d8d01e5eb969c07021" style="width: 100.0%; height: 100.0%;">Имя: Светлана Адрес: 25_114_2</div>`)[0];
+                popup_d4cd14216a872cf3b9f4dc21c93907ee.setContent(html_2de7f1dad5f2e6d8d01e5eb969c07021);
+            
+        
+
+        marker_e33d3ae03194a2fc8981d3c52918378f.bindPopup(popup_d4cd14216a872cf3b9f4dc21c93907ee)
+        ;
+
+        
+    
+    
+            var marker_49b498a7e12d96969ba516b23a1f7793 = L.marker(
+                [55.717961, 49.325349],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_4075274cb08a7820ba8ced20d2b837c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49b498a7e12d96969ba516b23a1f7793.setIcon(icon_4075274cb08a7820ba8ced20d2b837c2);
+        
+    
+        var popup_46694514a33f1fd0e7b1f7c596ce43d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09fcd260cfc9d2f9d10cddac12189692 = $(`<div id="html_09fcd260cfc9d2f9d10cddac12189692" style="width: 100.0%; height: 100.0%;">Имя: Раиль Адрес: 24_3</div>`)[0];
+                popup_46694514a33f1fd0e7b1f7c596ce43d3.setContent(html_09fcd260cfc9d2f9d10cddac12189692);
+            
+        
+
+        marker_49b498a7e12d96969ba516b23a1f7793.bindPopup(popup_46694514a33f1fd0e7b1f7c596ce43d3)
+        ;
+
+        
+    
+    
+            var marker_38239f4ac55a910abf00580ec267e431 = L.marker(
+                [55.71843, 49.324759],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_fec548478dae329bf97d412c92925286 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_38239f4ac55a910abf00580ec267e431.setIcon(icon_fec548478dae329bf97d412c92925286);
+        
+    
+        var popup_c3e13bcdfd7c88e47270e6fe37731d71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa7efadabeec7c58faf284bf51144360 = $(`<div id="html_aa7efadabeec7c58faf284bf51144360" style="width: 100.0%; height: 100.0%;">Имя: Ирина Адрес: 25_114_1</div>`)[0];
+                popup_c3e13bcdfd7c88e47270e6fe37731d71.setContent(html_aa7efadabeec7c58faf284bf51144360);
+            
+        
+
+        marker_38239f4ac55a910abf00580ec267e431.bindPopup(popup_c3e13bcdfd7c88e47270e6fe37731d71)
+        ;
+
+        
+    
+    
+            var marker_b21b54ba76483a86225e8a01d7ae45f2 = L.marker(
+                [55.718638, 49.321282],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_baaa4deef67ea78ccd1401d95b5515a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b21b54ba76483a86225e8a01d7ae45f2.setIcon(icon_baaa4deef67ea78ccd1401d95b5515a7);
+        
+    
+        var popup_0bedf73038671bd4121d0f32c63a76c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e5ba1c5e2555c339794e4ca52943e9d = $(`<div id="html_1e5ba1c5e2555c339794e4ca52943e9d" style="width: 100.0%; height: 100.0%;">Имя: Александра Адрес: 24_68_2а</div>`)[0];
+                popup_0bedf73038671bd4121d0f32c63a76c1.setContent(html_1e5ba1c5e2555c339794e4ca52943e9d);
+            
+        
+
+        marker_b21b54ba76483a86225e8a01d7ae45f2.bindPopup(popup_0bedf73038671bd4121d0f32c63a76c1)
+        ;
+
+        
+    
+    
+            var marker_c40cf89c6ce2ecca03b2d0a9c8284e56 = L.marker(
+                [55.718121, 49.324597],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_a973c1921e8dd70c99bae825e8eb54ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c40cf89c6ce2ecca03b2d0a9c8284e56.setIcon(icon_a973c1921e8dd70c99bae825e8eb54ca);
+        
+    
+        var popup_1010e161cf65d57d612e3a14e6cfe558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db9e24f162be798aa5b55ff17f0689ef = $(`<div id="html_db9e24f162be798aa5b55ff17f0689ef" style="width: 100.0%; height: 100.0%;">Имя: Дмитрий Адрес: 24_1</div>`)[0];
+                popup_1010e161cf65d57d612e3a14e6cfe558.setContent(html_db9e24f162be798aa5b55ff17f0689ef);
+            
+        
+
+        marker_c40cf89c6ce2ecca03b2d0a9c8284e56.bindPopup(popup_1010e161cf65d57d612e3a14e6cfe558)
+        ;
+
+        
+    
+    
+            var marker_c3659b9734a58f62b0624d866a96303f = L.marker(
+                [55.717797, 49.324929],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_6160f7e2f00ad79f5caac6ba86e00105 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3659b9734a58f62b0624d866a96303f.setIcon(icon_6160f7e2f00ad79f5caac6ba86e00105);
+        
+    
+        var popup_d83ef6c1239f336f10b1e0e095a72eb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56da18dba6de3e783f8f2c5031a2397f = $(`<div id="html_56da18dba6de3e783f8f2c5031a2397f" style="width: 100.0%; height: 100.0%;">Имя: Ильшат Адрес: 24_12_3</div>`)[0];
+                popup_d83ef6c1239f336f10b1e0e095a72eb9.setContent(html_56da18dba6de3e783f8f2c5031a2397f);
+            
+        
+
+        marker_c3659b9734a58f62b0624d866a96303f.bindPopup(popup_d83ef6c1239f336f10b1e0e095a72eb9)
+        ;
+
+        
+    
+    
+            var marker_d10aee2efbdff18226171bda6f7fd586 = L.marker(
+                [55.71833, 49.325206],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ec50deb540fab35be6ba1fe0216e7eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d10aee2efbdff18226171bda6f7fd586.setIcon(icon_ec50deb540fab35be6ba1fe0216e7eee);
+        
+    
+        var popup_0143a5e2e29a1c476c5e5e9a682638e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32810091a4951585a9d3f9e53f0411d2 = $(`<div id="html_32810091a4951585a9d3f9e53f0411d2" style="width: 100.0%; height: 100.0%;">Имя: Павел Адрес: 25_115_2</div>`)[0];
+                popup_0143a5e2e29a1c476c5e5e9a682638e2.setContent(html_32810091a4951585a9d3f9e53f0411d2);
+            
+        
+
+        marker_d10aee2efbdff18226171bda6f7fd586.bindPopup(popup_0143a5e2e29a1c476c5e5e9a682638e2)
+        ;
+
+        
+    
+    
+            var marker_19273bb3a68a5362dcd76c56914d8b8b = L.marker(
+                [55.718306, 49.325292],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c1236b3ac25550f00bed9f564658ffea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19273bb3a68a5362dcd76c56914d8b8b.setIcon(icon_c1236b3ac25550f00bed9f564658ffea);
+        
+    
+        var popup_8b513b2aa11e2bfd2dc4aad18fa38c55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51212761662d8615ccb213e9a8b29d57 = $(`<div id="html_51212761662d8615ccb213e9a8b29d57" style="width: 100.0%; height: 100.0%;">Имя: Руслан Адрес: 25_116_1</div>`)[0];
+                popup_8b513b2aa11e2bfd2dc4aad18fa38c55.setContent(html_51212761662d8615ccb213e9a8b29d57);
+            
+        
+
+        marker_19273bb3a68a5362dcd76c56914d8b8b.bindPopup(popup_8b513b2aa11e2bfd2dc4aad18fa38c55)
+        ;
+
+        
+    
+    
+            var marker_a7d1ce78c95b517c7bc694d398473272 = L.marker(
+                [55.718826, 49.322854],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_bf8fa7ad287cb738931d58fe46a22289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7d1ce78c95b517c7bc694d398473272.setIcon(icon_bf8fa7ad287cb738931d58fe46a22289);
+        
+    
+        var popup_96531af933f35a36a80a345de2c6c91a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2644c141f8911325f858ffc15ac262f3 = $(`<div id="html_2644c141f8911325f858ffc15ac262f3" style="width: 100.0%; height: 100.0%;">Имя: Алсу Адрес: 25_121_2</div>`)[0];
+                popup_96531af933f35a36a80a345de2c6c91a.setContent(html_2644c141f8911325f858ffc15ac262f3);
+            
+        
+
+        marker_a7d1ce78c95b517c7bc694d398473272.bindPopup(popup_96531af933f35a36a80a345de2c6c91a)
+        ;
+
+        
+    
+    
+            var marker_9da4885c7a1f0e5d209bd669af679ac1 = L.marker(
+                [55.718341, 49.325126],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_34b60cbe71ff857f7f02d5882b182607 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9da4885c7a1f0e5d209bd669af679ac1.setIcon(icon_34b60cbe71ff857f7f02d5882b182607);
+        
+    
+        var popup_3369ab5ae3f513506ed8fb0c38a22ffa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2183a81326718ae23c11b00ab5bd34e0 = $(`<div id="html_2183a81326718ae23c11b00ab5bd34e0" style="width: 100.0%; height: 100.0%;">Имя: Рамиль Адрес: 25_115_1</div>`)[0];
+                popup_3369ab5ae3f513506ed8fb0c38a22ffa.setContent(html_2183a81326718ae23c11b00ab5bd34e0);
+            
+        
+
+        marker_9da4885c7a1f0e5d209bd669af679ac1.bindPopup(popup_3369ab5ae3f513506ed8fb0c38a22ffa)
+        ;
+
+        
+    
+    
+            var marker_2a01d43504046d9de4048870ec287ef2 = L.marker(
+                [55.718841, 49.322791],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_7c0b82b195ed8f5b21aca8ea74a81d61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2a01d43504046d9de4048870ec287ef2.setIcon(icon_7c0b82b195ed8f5b21aca8ea74a81d61);
+        
+    
+        var popup_19c2ae87205b72e889dd0f42d720e7f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d62baab543453edd60c61bb2a3fc170 = $(`<div id="html_5d62baab543453edd60c61bb2a3fc170" style="width: 100.0%; height: 100.0%;">Имя: Рамиля Адрес: 25_121_1</div>`)[0];
+                popup_19c2ae87205b72e889dd0f42d720e7f5.setContent(html_5d62baab543453edd60c61bb2a3fc170);
+            
+        
+
+        marker_2a01d43504046d9de4048870ec287ef2.bindPopup(popup_19c2ae87205b72e889dd0f42d720e7f5)
+        ;
+
+        
+    
+    
+            var marker_8b2efd9b083d6a222984c6522257938d = L.marker(
+                [55.71829, 49.325372],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_462a3c7450414917cc7b669b4c521bc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b2efd9b083d6a222984c6522257938d.setIcon(icon_462a3c7450414917cc7b669b4c521bc0);
+        
+    
+        var popup_5b764c71e6d520c3795da80ffe1ae2f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffcbf2185433d9a0c159fb8628c11e89 = $(`<div id="html_ffcbf2185433d9a0c159fb8628c11e89" style="width: 100.0%; height: 100.0%;">Имя: Ксения Адрес: 25_116_2</div>`)[0];
+                popup_5b764c71e6d520c3795da80ffe1ae2f4.setContent(html_ffcbf2185433d9a0c159fb8628c11e89);
+            
+        
+
+        marker_8b2efd9b083d6a222984c6522257938d.bindPopup(popup_5b764c71e6d520c3795da80ffe1ae2f4)
+        ;
+
+        
+    
+    
+            var marker_2d700b2015814037210f3829a1298847 = L.marker(
+                [55.71878, 49.323061],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_10ad8442721871427b0c75efb63fc294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d700b2015814037210f3829a1298847.setIcon(icon_10ad8442721871427b0c75efb63fc294);
+        
+    
+        var popup_737f9a8bcece7b06da1d0aa05690a387 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_498d70471fc4c527d6d868878204de10 = $(`<div id="html_498d70471fc4c527d6d868878204de10" style="width: 100.0%; height: 100.0%;">Имя: Ильназ Адрес: 122_2</div>`)[0];
+                popup_737f9a8bcece7b06da1d0aa05690a387.setContent(html_498d70471fc4c527d6d868878204de10);
+            
+        
+
+        marker_2d700b2015814037210f3829a1298847.bindPopup(popup_737f9a8bcece7b06da1d0aa05690a387)
+        ;
+
+        
+    
+    
+            var marker_f48bd8661e5c1395df42fe0a4777ff52 = L.marker(
+                [55.718872, 49.322621],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c45bc7671d6538b0ef3f3f7bc51fe118 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f48bd8661e5c1395df42fe0a4777ff52.setIcon(icon_c45bc7671d6538b0ef3f3f7bc51fe118);
+        
+    
+        var popup_e6fad420ba9b54a5a9dd9a3f58ae0bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52999d71e42f3a993755e367345808eb = $(`<div id="html_52999d71e42f3a993755e367345808eb" style="width: 100.0%; height: 100.0%;">Имя: Сергей Адрес: 120_2</div>`)[0];
+                popup_e6fad420ba9b54a5a9dd9a3f58ae0bf2.setContent(html_52999d71e42f3a993755e367345808eb);
+            
+        
+
+        marker_f48bd8661e5c1395df42fe0a4777ff52.bindPopup(popup_e6fad420ba9b54a5a9dd9a3f58ae0bf2)
+        ;
+
+        
+    
+    
+            var marker_6e399156368c927a86efc05555497811 = L.marker(
+                [55.718801, 49.32298],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_3f9477e864a00d3d374e7134e5eb895a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6e399156368c927a86efc05555497811.setIcon(icon_3f9477e864a00d3d374e7134e5eb895a);
+        
+    
+        var popup_d3d092f47e58ea427dc786806da045c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_088c865212ea98d2be769a2aeaec4580 = $(`<div id="html_088c865212ea98d2be769a2aeaec4580" style="width: 100.0%; height: 100.0%;">Имя: Рузия Адрес: 122_1</div>`)[0];
+                popup_d3d092f47e58ea427dc786806da045c9.setContent(html_088c865212ea98d2be769a2aeaec4580);
+            
+        
+
+        marker_6e399156368c927a86efc05555497811.bindPopup(popup_d3d092f47e58ea427dc786806da045c9)
+        ;
+
+        
+    
+    
+            var marker_531610e01c6c88d71925654da07bfe90 = L.marker(
+                [55.718932, 49.322306],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_38b746e5a0074303d3b384a936a03df7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_531610e01c6c88d71925654da07bfe90.setIcon(icon_38b746e5a0074303d3b384a936a03df7);
+        
+    
+        var popup_335894350dee222841f0068ab61fac15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2067c9902fc3bffc7f3520d54ceda9fa = $(`<div id="html_2067c9902fc3bffc7f3520d54ceda9fa" style="width: 100.0%; height: 100.0%;">Имя: Альберт Адрес: 119_1</div>`)[0];
+                popup_335894350dee222841f0068ab61fac15.setContent(html_2067c9902fc3bffc7f3520d54ceda9fa);
+            
+        
+
+        marker_531610e01c6c88d71925654da07bfe90.bindPopup(popup_335894350dee222841f0068ab61fac15)
+        ;
+
+        
+    
+    
+            var marker_ef4881c4f8a28397fb139539ff7b1fe0 = L.marker(
+                [55.718917, 49.322387],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_0d51a649f1894686009164f5f05b12bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef4881c4f8a28397fb139539ff7b1fe0.setIcon(icon_0d51a649f1894686009164f5f05b12bd);
+        
+    
+        var popup_bde64a4bbf3a5a60ca0c61ac0024ab83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dff8cf5ea28e92346dc1ef087ef3bd36 = $(`<div id="html_dff8cf5ea28e92346dc1ef087ef3bd36" style="width: 100.0%; height: 100.0%;">Имя: Диловар Адрес: 25_119_2</div>`)[0];
+                popup_bde64a4bbf3a5a60ca0c61ac0024ab83.setContent(html_dff8cf5ea28e92346dc1ef087ef3bd36);
+            
+        
+
+        marker_ef4881c4f8a28397fb139539ff7b1fe0.bindPopup(popup_bde64a4bbf3a5a60ca0c61ac0024ab83)
+        ;
+
+        
+    
+    
+            var marker_60cb859d45107f0157827b8667a21ac8 = L.marker(
+                [55.717771, 49.326322],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_46f9d5b24a6aabd671caf8153b8eab3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60cb859d45107f0157827b8667a21ac8.setIcon(icon_46f9d5b24a6aabd671caf8153b8eab3d);
+        
+    
+        var popup_f3cc28e44ccefcac7789688aba1682dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c839aa09691aac94f497599b7e11d53 = $(`<div id="html_3c839aa09691aac94f497599b7e11d53" style="width: 100.0%; height: 100.0%;">Имя: Антон Адрес: 24_6</div>`)[0];
+                popup_f3cc28e44ccefcac7789688aba1682dc.setContent(html_3c839aa09691aac94f497599b7e11d53);
+            
+        
+
+        marker_60cb859d45107f0157827b8667a21ac8.bindPopup(popup_f3cc28e44ccefcac7789688aba1682dc)
+        ;
+
+        
+    
+    
+            var marker_026ef2c31db1afb36f29f0308323475b = L.marker(
+                [55.717432, 49.327489],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_19eba78107a6f95cb36114085282998c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_026ef2c31db1afb36f29f0308323475b.setIcon(icon_19eba78107a6f95cb36114085282998c);
+        
+    
+        var popup_5abdcb81150e5bd38f41781d3c09de02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc712896a4fb2fe0679399c19049a73a = $(`<div id="html_cc712896a4fb2fe0679399c19049a73a" style="width: 100.0%; height: 100.0%;">Имя: Руслан Адрес: 24_10_1</div>`)[0];
+                popup_5abdcb81150e5bd38f41781d3c09de02.setContent(html_cc712896a4fb2fe0679399c19049a73a);
+            
+        
+
+        marker_026ef2c31db1afb36f29f0308323475b.bindPopup(popup_5abdcb81150e5bd38f41781d3c09de02)
+        ;
+
+        
+    
+    
+            var marker_8218a7e3712b526f1c50cfe2bd97c12a = L.marker(
+                [55.71771, 49.326618],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_3fe0c9ae7cc8d6d85a14ad68fa3e97e3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8218a7e3712b526f1c50cfe2bd97c12a.setIcon(icon_3fe0c9ae7cc8d6d85a14ad68fa3e97e3);
+        
+    
+        var popup_c733fc716b4ca2f46440feb9061a89ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_335f8d754714152bf255d11f430420f9 = $(`<div id="html_335f8d754714152bf255d11f430420f9" style="width: 100.0%; height: 100.0%;">Имя: Айнур Адрес: 24_7</div>`)[0];
+                popup_c733fc716b4ca2f46440feb9061a89ce.setContent(html_335f8d754714152bf255d11f430420f9);
+            
+        
+
+        marker_8218a7e3712b526f1c50cfe2bd97c12a.bindPopup(popup_c733fc716b4ca2f46440feb9061a89ce)
+        ;
+
+        
+    
+    
+            var marker_6b04cca1944e783e2d6d0313db11a881 = L.marker(
+                [55.718719, 49.323393],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_72e1c2511af2f31204d29d1f793903e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6b04cca1944e783e2d6d0313db11a881.setIcon(icon_72e1c2511af2f31204d29d1f793903e7);
+        
+    
+        var popup_d65da326446c4fabfd07437a086b0252 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b39bd94c1d9fe035803de3eab959a08c = $(`<div id="html_b39bd94c1d9fe035803de3eab959a08c" style="width: 100.0%; height: 100.0%;">Имя: Виктор Адрес: 123_2</div>`)[0];
+                popup_d65da326446c4fabfd07437a086b0252.setContent(html_b39bd94c1d9fe035803de3eab959a08c);
+            
+        
+
+        marker_6b04cca1944e783e2d6d0313db11a881.bindPopup(popup_d65da326446c4fabfd07437a086b0252)
+        ;
+
+        
+    
+    
+            var marker_64c0da14737ad9b430a78cea07ddd83a = L.marker(
+                [55.717574, 49.327202],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_885407d517084b0c6f424b8e48b2372f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64c0da14737ad9b430a78cea07ddd83a.setIcon(icon_885407d517084b0c6f424b8e48b2372f);
+        
+    
+        var popup_bf92889fd469a24022c364025f442713 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_078ba98e0ee866171c3e619a08e998b9 = $(`<div id="html_078ba98e0ee866171c3e619a08e998b9" style="width: 100.0%; height: 100.0%;">Имя: Артур Адрес: 24_9_1</div>`)[0];
+                popup_bf92889fd469a24022c364025f442713.setContent(html_078ba98e0ee866171c3e619a08e998b9);
+            
+        
+
+        marker_64c0da14737ad9b430a78cea07ddd83a.bindPopup(popup_bf92889fd469a24022c364025f442713)
+        ;
+
+        
+    
+    
+            var marker_aa0c239a3d3a902b9681804a8c3ffd5e = L.marker(
+                [55.718243, 49.325504],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_12776114e89e44e4f8da0371d44d8ca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aa0c239a3d3a902b9681804a8c3ffd5e.setIcon(icon_12776114e89e44e4f8da0371d44d8ca4);
+        
+    
+        var popup_1f683002a7c90751025fe6916bd21e71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afdc7559c9a3b5cdb1df7146447227c8 = $(`<div id="html_afdc7559c9a3b5cdb1df7146447227c8" style="width: 100.0%; height: 100.0%;">Имя: Людмила Адрес: 25_116а_1</div>`)[0];
+                popup_1f683002a7c90751025fe6916bd21e71.setContent(html_afdc7559c9a3b5cdb1df7146447227c8);
+            
+        
+
+        marker_aa0c239a3d3a902b9681804a8c3ffd5e.bindPopup(popup_1f683002a7c90751025fe6916bd21e71)
+        ;
+
+        
+    
+    
+            var marker_7ce559a35b3bc5fc8eba0d818f2fbb74 = L.marker(
+                [55.718225, 49.3256],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_18e86c6e7f5be93fffcca52288639193 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7ce559a35b3bc5fc8eba0d818f2fbb74.setIcon(icon_18e86c6e7f5be93fffcca52288639193);
+        
+    
+        var popup_d42022984fe0dc433d500fe01e40d8b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_006cc40831cf03fc9bff234f6825393f = $(`<div id="html_006cc40831cf03fc9bff234f6825393f" style="width: 100.0%; height: 100.0%;">Имя: Максим Адрес: 25_116а_2</div>`)[0];
+                popup_d42022984fe0dc433d500fe01e40d8b5.setContent(html_006cc40831cf03fc9bff234f6825393f);
+            
+        
+
+        marker_7ce559a35b3bc5fc8eba0d818f2fbb74.bindPopup(popup_d42022984fe0dc433d500fe01e40d8b5)
+        ;
+
+        
+    
+    
+            var marker_9e1d80bad93e6b0cb00dccab30fed501 = L.marker(
+                [55.717731, 49.324893],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_d037e3bd26fd23cf167137baebc78b41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e1d80bad93e6b0cb00dccab30fed501.setIcon(icon_d037e3bd26fd23cf167137baebc78b41);
+        
+    
+        var popup_5a1ac589567831241cdd812654708a86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0bcd3abe3851ac07256403dc0a9e3b1 = $(`<div id="html_c0bcd3abe3851ac07256403dc0a9e3b1" style="width: 100.0%; height: 100.0%;">Имя: Фируза Адрес: 24_12_2</div>`)[0];
+                popup_5a1ac589567831241cdd812654708a86.setContent(html_c0bcd3abe3851ac07256403dc0a9e3b1);
+            
+        
+
+        marker_9e1d80bad93e6b0cb00dccab30fed501.bindPopup(popup_5a1ac589567831241cdd812654708a86)
+        ;
+
+        
+    
+    
+            var marker_8e4ce3f92af2b5fbfb9e2baf9c21c4d1 = L.marker(
+                [55.71874, 49.323267],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_86b7e7e43a423965eb31469ed9deff6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e4ce3f92af2b5fbfb9e2baf9c21c4d1.setIcon(icon_86b7e7e43a423965eb31469ed9deff6c);
+        
+    
+        var popup_ce53e7f4fe8a65228a04e14be2c7986b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b196bcd7b62c4143139b263a07210ab1 = $(`<div id="html_b196bcd7b62c4143139b263a07210ab1" style="width: 100.0%; height: 100.0%;">Имя: Ильнар Адрес: 123_1</div>`)[0];
+                popup_ce53e7f4fe8a65228a04e14be2c7986b.setContent(html_b196bcd7b62c4143139b263a07210ab1);
+            
+        
+
+        marker_8e4ce3f92af2b5fbfb9e2baf9c21c4d1.bindPopup(popup_ce53e7f4fe8a65228a04e14be2c7986b)
+        ;
+
+        
+    
+    
+            var marker_e4e1f811b161bb0172a63171cf245ac6 = L.marker(
+                [55.717376, 49.327732],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_bcb13ffb611c8f54ea40f1e7b947d70a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4e1f811b161bb0172a63171cf245ac6.setIcon(icon_bcb13ffb611c8f54ea40f1e7b947d70a);
+        
+    
+        var popup_3f090054f17c68a2f8bc329fd594c451 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ad83dc88137f21dbfa5d0e6fdc7263f = $(`<div id="html_3ad83dc88137f21dbfa5d0e6fdc7263f" style="width: 100.0%; height: 100.0%;">Имя: Сергей Адрес: 24_11_2</div>`)[0];
+                popup_3f090054f17c68a2f8bc329fd594c451.setContent(html_3ad83dc88137f21dbfa5d0e6fdc7263f);
+            
+        
+
+        marker_e4e1f811b161bb0172a63171cf245ac6.bindPopup(popup_3f090054f17c68a2f8bc329fd594c451)
+        ;
+
+        
+    
+    
+            var marker_8bd0273a65b65abaeb5a47d28abc0aaf = L.marker(
+                [55.718654, 49.323716],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ba9a436847f18cd82cdcec61925c413d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8bd0273a65b65abaeb5a47d28abc0aaf.setIcon(icon_ba9a436847f18cd82cdcec61925c413d);
+        
+    
+        var popup_69c69b0ea9430dec9b4d9bfe682bbd91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41d0a4d08c97b93dbf4567c4f28d48be = $(`<div id="html_41d0a4d08c97b93dbf4567c4f28d48be" style="width: 100.0%; height: 100.0%;">Имя: Руслан Адрес: 124_2</div>`)[0];
+                popup_69c69b0ea9430dec9b4d9bfe682bbd91.setContent(html_41d0a4d08c97b93dbf4567c4f28d48be);
+            
+        
+
+        marker_8bd0273a65b65abaeb5a47d28abc0aaf.bindPopup(popup_69c69b0ea9430dec9b4d9bfe682bbd91)
+        ;
+
+        
+    
+    
+            var marker_d219c64298e59e05605c5d991729b009 = L.marker(
+                [55.718674, 49.323627],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_70ac3aee4739396b1b325fc3a259a2bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d219c64298e59e05605c5d991729b009.setIcon(icon_70ac3aee4739396b1b325fc3a259a2bb);
+        
+    
+        var popup_c558ab6a3d277541472357ecf6931d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1640999fd7df0a41027d2c7ea8ea6827 = $(`<div id="html_1640999fd7df0a41027d2c7ea8ea6827" style="width: 100.0%; height: 100.0%;">Имя: Александра Адрес: 25_124_1</div>`)[0];
+                popup_c558ab6a3d277541472357ecf6931d59.setContent(html_1640999fd7df0a41027d2c7ea8ea6827);
+            
+        
+
+        marker_d219c64298e59e05605c5d991729b009.bindPopup(popup_c558ab6a3d277541472357ecf6931d59)
+        ;
+
+        
+    
+    
+            var marker_12db5b6165b225ebe66c4f5960cbc542 = L.marker(
+                [55.717432, 49.327489],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_10aa20eb156f29971d1646f4e1943c1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12db5b6165b225ebe66c4f5960cbc542.setIcon(icon_10aa20eb156f29971d1646f4e1943c1c);
+        
+    
+        var popup_6417071d8d18f97f1e1ad3ebaa99c38a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d037442c6dee5a639ba9bb1adbed8e98 = $(`<div id="html_d037442c6dee5a639ba9bb1adbed8e98" style="width: 100.0%; height: 100.0%;">Имя: Елена Адрес: 24_10_2</div>`)[0];
+                popup_6417071d8d18f97f1e1ad3ebaa99c38a.setContent(html_d037442c6dee5a639ba9bb1adbed8e98);
+            
+        
+
+        marker_12db5b6165b225ebe66c4f5960cbc542.bindPopup(popup_6417071d8d18f97f1e1ad3ebaa99c38a)
+        ;
+
+        
+    
+    
+            var marker_5796ffe066b17af4a68a0765142b51f5 = L.marker(
+                [55.717574, 49.327202],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ab92b54f916c9cf0ef04443925c5ab8d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5796ffe066b17af4a68a0765142b51f5.setIcon(icon_ab92b54f916c9cf0ef04443925c5ab8d);
+        
+    
+        var popup_5d9449b83106bb8a5431c10f188da6f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c4e707ddb3311cb584eb772109455e4 = $(`<div id="html_8c4e707ddb3311cb584eb772109455e4" style="width: 100.0%; height: 100.0%;">Имя: Вадим Адрес: 24_9_2</div>`)[0];
+                popup_5d9449b83106bb8a5431c10f188da6f0.setContent(html_8c4e707ddb3311cb584eb772109455e4);
+            
+        
+
+        marker_5796ffe066b17af4a68a0765142b51f5.bindPopup(popup_5d9449b83106bb8a5431c10f188da6f0)
+        ;
+
+        
+    
+    
+            var marker_28581060ac5f2a70f2ad73a61d0a8bbf = L.marker(
+                [55.717847, 49.326016],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_f9affe9705b8c9b4ba5a0389d7ba10c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28581060ac5f2a70f2ad73a61d0a8bbf.setIcon(icon_f9affe9705b8c9b4ba5a0389d7ba10c9);
+        
+    
+        var popup_46eb437aceda210256d22e677e89fce1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f404bd624edb724ed2ff29c2c665f20a = $(`<div id="html_f404bd624edb724ed2ff29c2c665f20a" style="width: 100.0%; height: 100.0%;">Имя: Флюза Адрес: 24_5</div>`)[0];
+                popup_46eb437aceda210256d22e677e89fce1.setContent(html_f404bd624edb724ed2ff29c2c665f20a);
+            
+        
+
+        marker_28581060ac5f2a70f2ad73a61d0a8bbf.bindPopup(popup_46eb437aceda210256d22e677e89fce1)
+        ;
+
+        
+    
+    
+            var marker_0b6efa4c36f6cfc1641d457bf7650be4 = L.marker(
+                [55.718892, 49.32254],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_0c05d7afa358e8c92c39c015a8d49419 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b6efa4c36f6cfc1641d457bf7650be4.setIcon(icon_0c05d7afa358e8c92c39c015a8d49419);
+        
+    
+        var popup_8c302e15aa6b90742de0bfad2ebe576d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13b56668cbed732d724bce51c5159b2c = $(`<div id="html_13b56668cbed732d724bce51c5159b2c" style="width: 100.0%; height: 100.0%;">Имя: Гульнара Адрес: 120_1</div>`)[0];
+                popup_8c302e15aa6b90742de0bfad2ebe576d.setContent(html_13b56668cbed732d724bce51c5159b2c);
+            
+        
+
+        marker_0b6efa4c36f6cfc1641d457bf7650be4.bindPopup(popup_8c302e15aa6b90742de0bfad2ebe576d)
+        ;
+
+        
+    
+    
+            var marker_771549736d460aa7074274597a1ae5fd = L.marker(
+                [55.717234, 49.328316],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_4d7106e4c6c9556ffcb8db702c22169f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_771549736d460aa7074274597a1ae5fd.setIcon(icon_4d7106e4c6c9556ffcb8db702c22169f);
+        
+    
+        var popup_dc08be2e190cae0bfaaa05e02a6e1e72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cbb9930ee183c930e112b89f2399df6 = $(`<div id="html_3cbb9930ee183c930e112b89f2399df6" style="width: 100.0%; height: 100.0%;">Имя: Алексей Адрес: 23_1</div>`)[0];
+                popup_dc08be2e190cae0bfaaa05e02a6e1e72.setContent(html_3cbb9930ee183c930e112b89f2399df6);
+            
+        
+
+        marker_771549736d460aa7074274597a1ae5fd.bindPopup(popup_dc08be2e190cae0bfaaa05e02a6e1e72)
+        ;
+
+        
+    
+    
+            var marker_33f626fe81d68344c1912481919e5fc1 = L.marker(
+                [55.717908, 49.324435],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_e0d922f8ed54ce38e080eacb1541d78d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33f626fe81d68344c1912481919e5fc1.setIcon(icon_e0d922f8ed54ce38e080eacb1541d78d);
+        
+    
+        var popup_0054f8364be99a75173af9a221c7fcc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42bb7a724e998cfa8011c366db9f6035 = $(`<div id="html_42bb7a724e998cfa8011c366db9f6035" style="width: 100.0%; height: 100.0%;">Имя: Ирина Адрес: 24_87_3</div>`)[0];
+                popup_0054f8364be99a75173af9a221c7fcc0.setContent(html_42bb7a724e998cfa8011c366db9f6035);
+            
+        
+
+        marker_33f626fe81d68344c1912481919e5fc1.bindPopup(popup_0054f8364be99a75173af9a221c7fcc0)
+        ;
+
+        
+    
+    
+            var marker_dc5a4a17f8ff00ff4144811e34054e59 = L.marker(
+                [55.718471, 49.324525],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_15fd1405f042ef14484e042258e2e8b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dc5a4a17f8ff00ff4144811e34054e59.setIcon(icon_15fd1405f042ef14484e042258e2e8b7);
+        
+    
+        var popup_28d9f25e6519061118ef62af3727296a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1af56d6502b6a1e17a879adf6b1d01c = $(`<div id="html_f1af56d6502b6a1e17a879adf6b1d01c" style="width: 100.0%; height: 100.0%;">Имя: Сергей Адрес: 25_113</div>`)[0];
+                popup_28d9f25e6519061118ef62af3727296a.setContent(html_f1af56d6502b6a1e17a879adf6b1d01c);
+            
+        
+
+        marker_dc5a4a17f8ff00ff4144811e34054e59.bindPopup(popup_28d9f25e6519061118ef62af3727296a)
+        ;
+
+        
+    
+    
+            var marker_18d7f37c4d2d15a177012ae5a177a313 = L.marker(
+                [55.718367, 49.323347],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_3fabcb3102e59bf2ebc973d6c3b9ff84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18d7f37c4d2d15a177012ae5a177a313.setIcon(icon_3fabcb3102e59bf2ebc973d6c3b9ff84);
+        
+    
+        var popup_74e3266a7760ece1f222c6a7b9008631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_109059f24a2bb040b26b08386c82045e = $(`<div id="html_109059f24a2bb040b26b08386c82045e" style="width: 100.0%; height: 100.0%;">Имя: Булат Адрес: 24_75_1</div>`)[0];
+                popup_74e3266a7760ece1f222c6a7b9008631.setContent(html_109059f24a2bb040b26b08386c82045e);
+            
+        
+
+        marker_18d7f37c4d2d15a177012ae5a177a313.bindPopup(popup_74e3266a7760ece1f222c6a7b9008631)
+        ;
+
+        
+    
+    
+            var marker_d4f709a7717911dd5f14888836e37667 = L.marker(
+                [55.718602, 49.322395],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_19b142aad0b545fc4f6d8a06b45bcb90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4f709a7717911dd5f14888836e37667.setIcon(icon_19b142aad0b545fc4f6d8a06b45bcb90);
+        
+    
+        var popup_60652616c620e4a117ffff5ee88fa880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd78a9fc62b61a652e0e2417f31e4070 = $(`<div id="html_dd78a9fc62b61a652e0e2417f31e4070" style="width: 100.0%; height: 100.0%;">Имя: Лилия Адрес: 24_71_1</div>`)[0];
+                popup_60652616c620e4a117ffff5ee88fa880.setContent(html_dd78a9fc62b61a652e0e2417f31e4070);
+            
+        
+
+        marker_d4f709a7717911dd5f14888836e37667.bindPopup(popup_60652616c620e4a117ffff5ee88fa880)
+        ;
+
+        
+    
+    
+            var marker_a4414e3cae226071be3decbbf3aa083a = L.marker(
+                [55.718579, 49.322517],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_db8934ef2d786f7d3077fe8d10413b3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4414e3cae226071be3decbbf3aa083a.setIcon(icon_db8934ef2d786f7d3077fe8d10413b3b);
+        
+    
+        var popup_8e355315a59220ef10e41558c793a140 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33fe5538007812c4808673fc2d7300b1 = $(`<div id="html_33fe5538007812c4808673fc2d7300b1" style="width: 100.0%; height: 100.0%;">Имя: Елена Адрес: 71_2</div>`)[0];
+                popup_8e355315a59220ef10e41558c793a140.setContent(html_33fe5538007812c4808673fc2d7300b1);
+            
+        
+
+        marker_a4414e3cae226071be3decbbf3aa083a.bindPopup(popup_8e355315a59220ef10e41558c793a140)
+        ;
+
+        
+    
+    
+            var marker_c52a5c26e52c01e345f5bfa6d615094b = L.marker(
+                [55.7185, 49.322771],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_b019b89f36739ca8815ea4ecba85766c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c52a5c26e52c01e345f5bfa6d615094b.setIcon(icon_b019b89f36739ca8815ea4ecba85766c);
+        
+    
+        var popup_b3219a4a485dad8ebd279f22b45bf934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1e08ed30e4ab90d53b2384fddd70267 = $(`<div id="html_b1e08ed30e4ab90d53b2384fddd70267" style="width: 100.0%; height: 100.0%;">Имя: Ильфат Адрес: 73_1</div>`)[0];
+                popup_b3219a4a485dad8ebd279f22b45bf934.setContent(html_b1e08ed30e4ab90d53b2384fddd70267);
+            
+        
+
+        marker_c52a5c26e52c01e345f5bfa6d615094b.bindPopup(popup_b3219a4a485dad8ebd279f22b45bf934)
+        ;
+
+        
+    
+    
+            var marker_ef29618c825550a50c0e4234aab72df2 = L.marker(
+                [55.717629, 49.325172],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_af98e7b7bfac4881e173d1c4711439e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ef29618c825550a50c0e4234aab72df2.setIcon(icon_af98e7b7bfac4881e173d1c4711439e9);
+        
+    
+        var popup_26581dd4b5d7d6ac8542ce26135ea05e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_840beb9b5811e941960b125620912a32 = $(`<div id="html_840beb9b5811e941960b125620912a32" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_13</div>`)[0];
+                popup_26581dd4b5d7d6ac8542ce26135ea05e.setContent(html_840beb9b5811e941960b125620912a32);
+            
+        
+
+        marker_ef29618c825550a50c0e4234aab72df2.bindPopup(popup_26581dd4b5d7d6ac8542ce26135ea05e)
+        ;
+
+        
+    
+    
+            var marker_525be41165aac784024c3d31db4ce631 = L.marker(
+                [55.717497, 49.325774],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_0d1b8edecb5dd1125f74d051b166680d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_525be41165aac784024c3d31db4ce631.setIcon(icon_0d1b8edecb5dd1125f74d051b166680d);
+        
+    
+        var popup_eb95ca6126eee919d086551d81e562da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_753dd1dc8539c05c462ced10f9f0a15b = $(`<div id="html_753dd1dc8539c05c462ced10f9f0a15b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_15</div>`)[0];
+                popup_eb95ca6126eee919d086551d81e562da.setContent(html_753dd1dc8539c05c462ced10f9f0a15b);
+            
+        
+
+        marker_525be41165aac784024c3d31db4ce631.bindPopup(popup_eb95ca6126eee919d086551d81e562da)
+        ;
+
+        
+    
+    
+            var marker_a657a99a7825370b5b426a914d9d262f = L.marker(
+                [55.718192, 49.323007],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_4e09cea06a3f87ea54807ed7250ff89d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a657a99a7825370b5b426a914d9d262f.setIcon(icon_4e09cea06a3f87ea54807ed7250ff89d);
+        
+    
+        var popup_0f0ea50f11775eee0021feedb78fd98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cc0df36a68daa3e5edd8f85e42a6030 = $(`<div id="html_5cc0df36a68daa3e5edd8f85e42a6030" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_82_2</div>`)[0];
+                popup_0f0ea50f11775eee0021feedb78fd98f.setContent(html_5cc0df36a68daa3e5edd8f85e42a6030);
+            
+        
+
+        marker_a657a99a7825370b5b426a914d9d262f.bindPopup(popup_0f0ea50f11775eee0021feedb78fd98f)
+        ;
+
+        
+    
+    
+            var marker_1abf00b15f5c48be3fa2e65efda4ac2f = L.marker(
+                [55.724302, 49.325154],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_a228e3ccb35b2a95de6f6bb1975355f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1abf00b15f5c48be3fa2e65efda4ac2f.setIcon(icon_a228e3ccb35b2a95de6f6bb1975355f9);
+        
+    
+        var popup_5586f8e15c7b2d2a6b480990c490bfcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd4a3ac232e90f97b089804a282893fe = $(`<div id="html_cd4a3ac232e90f97b089804a282893fe" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_24_2</div>`)[0];
+                popup_5586f8e15c7b2d2a6b480990c490bfcf.setContent(html_cd4a3ac232e90f97b089804a282893fe);
+            
+        
+
+        marker_1abf00b15f5c48be3fa2e65efda4ac2f.bindPopup(popup_5586f8e15c7b2d2a6b480990c490bfcf)
+        ;
+
+        
+    
+    
+            var marker_9f2877f42d63f259548c0036fc559893 = L.marker(
+                [55.717168, 49.325845],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_058dfd807d36ffd51cf49e846127ebb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f2877f42d63f259548c0036fc559893.setIcon(icon_058dfd807d36ffd51cf49e846127ebb1);
+        
+    
+        var popup_cabbe7f2d3992ba4ab5abc8dbf4db3a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de457d1a44d923f53dc932b1e926e2c4 = $(`<div id="html_de457d1a44d923f53dc932b1e926e2c4" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_26</div>`)[0];
+                popup_cabbe7f2d3992ba4ab5abc8dbf4db3a7.setContent(html_de457d1a44d923f53dc932b1e926e2c4);
+            
+        
+
+        marker_9f2877f42d63f259548c0036fc559893.bindPopup(popup_cabbe7f2d3992ba4ab5abc8dbf4db3a7)
+        ;
+
+        
+    
+    
+            var marker_3e221092cb2334cefd52624c7494fbc6 = L.marker(
+                [55.719723, 49.323716],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_1ea86a3ec065873a480505aa3ff335c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3e221092cb2334cefd52624c7494fbc6.setIcon(icon_1ea86a3ec065873a480505aa3ff335c7);
+        
+    
+        var popup_5fe8af9562d9fdb695dfd54a6a8b0157 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d259370ebc121ae0bc04e3e4f936640 = $(`<div id="html_8d259370ebc121ae0bc04e3e4f936640" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_97</div>`)[0];
+                popup_5fe8af9562d9fdb695dfd54a6a8b0157.setContent(html_8d259370ebc121ae0bc04e3e4f936640);
+            
+        
+
+        marker_3e221092cb2334cefd52624c7494fbc6.bindPopup(popup_5fe8af9562d9fdb695dfd54a6a8b0157)
+        ;
+
+        
+    
+    
+            var marker_fb5494cb9afc2a9a59113a7b3baf22bb = L.marker(
+                [55.722963, 49.325001],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_5a2692f07a5f9f2d0e5673d14f23b4b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb5494cb9afc2a9a59113a7b3baf22bb.setIcon(icon_5a2692f07a5f9f2d0e5673d14f23b4b0);
+        
+    
+        var popup_06db31ced74300b72b64c4409d4dc75a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08aece90317571963353c61461a0e97d = $(`<div id="html_08aece90317571963353c61461a0e97d" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_28_1</div>`)[0];
+                popup_06db31ced74300b72b64c4409d4dc75a.setContent(html_08aece90317571963353c61461a0e97d);
+            
+        
+
+        marker_fb5494cb9afc2a9a59113a7b3baf22bb.bindPopup(popup_06db31ced74300b72b64c4409d4dc75a)
+        ;
+
+        
+    
+    
+            var marker_b7b746ab14afa4213da6c124707b60f8 = L.marker(
+                [55.71662, 49.326555],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_2d2561bfc2cb8fccd5650ecd2592408f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b7b746ab14afa4213da6c124707b60f8.setIcon(icon_2d2561bfc2cb8fccd5650ecd2592408f);
+        
+    
+        var popup_2503b4358792c00a678c6cff35eb1cdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffcc8f90578e57980c2f0415bbb08580 = $(`<div id="html_ffcc8f90578e57980c2f0415bbb08580" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_39</div>`)[0];
+                popup_2503b4358792c00a678c6cff35eb1cdb.setContent(html_ffcc8f90578e57980c2f0415bbb08580);
+            
+        
+
+        marker_b7b746ab14afa4213da6c124707b60f8.bindPopup(popup_2503b4358792c00a678c6cff35eb1cdb)
+        ;
+
+        
+    
+    
+            var marker_f0129b51745c459c3c3c00de599bcac7 = L.marker(
+                [55.718583, 49.324228],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_481fb6443983dfb6ee46ef82e5021880 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0129b51745c459c3c3c00de599bcac7.setIcon(icon_481fb6443983dfb6ee46ef82e5021880);
+        
+    
+        var popup_c958f03037a8d2bf2572d5db0c411e5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9216b8ff320feb17fe9c8583e3c6197e = $(`<div id="html_9216b8ff320feb17fe9c8583e3c6197e" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_112а_1</div>`)[0];
+                popup_c958f03037a8d2bf2572d5db0c411e5f.setContent(html_9216b8ff320feb17fe9c8583e3c6197e);
+            
+        
+
+        marker_f0129b51745c459c3c3c00de599bcac7.bindPopup(popup_c958f03037a8d2bf2572d5db0c411e5f)
+        ;
+
+        
+    
+    
+            var marker_b72f41096a1d45f12bd60bb3a12338a1 = L.marker(
+                [55.722269, 49.326807],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_70ecf18425072c5845ce75e8c9e3a1d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b72f41096a1d45f12bd60bb3a12338a1.setIcon(icon_70ecf18425072c5845ce75e8c9e3a1d2);
+        
+    
+        var popup_e82b5bf21c4ce683074f40b6b4aa924a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1046d13b1cca27a983982b4a107837fa = $(`<div id="html_1046d13b1cca27a983982b4a107837fa" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_42</div>`)[0];
+                popup_e82b5bf21c4ce683074f40b6b4aa924a.setContent(html_1046d13b1cca27a983982b4a107837fa);
+            
+        
+
+        marker_b72f41096a1d45f12bd60bb3a12338a1.bindPopup(popup_e82b5bf21c4ce683074f40b6b4aa924a)
+        ;
+
+        
+    
+    
+            var marker_cd666e741244d394bb6aeaab7cd4ef6e = L.marker(
+                [55.722208, 49.325414],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_264d484cb6a369c6db018afb32cfb25e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cd666e741244d394bb6aeaab7cd4ef6e.setIcon(icon_264d484cb6a369c6db018afb32cfb25e);
+        
+    
+        var popup_ea8daf444848624386cfeeaf5d0706ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7535b02f1bd75ae85ddeaa5de9812ddd = $(`<div id="html_7535b02f1bd75ae85ddeaa5de9812ddd" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_46</div>`)[0];
+                popup_ea8daf444848624386cfeeaf5d0706ee.setContent(html_7535b02f1bd75ae85ddeaa5de9812ddd);
+            
+        
+
+        marker_cd666e741244d394bb6aeaab7cd4ef6e.bindPopup(popup_ea8daf444848624386cfeeaf5d0706ee)
+        ;
+
+        
+    
+    
+            var marker_a90f409f9fa0de22d6620d767cc3e83c = L.marker(
+                [55.722096, 49.32589],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ebd632c827d9b8e5bac3e18b5bb1aafb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a90f409f9fa0de22d6620d767cc3e83c.setIcon(icon_ebd632c827d9b8e5bac3e18b5bb1aafb);
+        
+    
+        var popup_193151dbc2544ee950ab292ab7cc0553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e5c0b401d9ff25ed5ea8f1a81c3eafe = $(`<div id="html_2e5c0b401d9ff25ed5ea8f1a81c3eafe" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_48</div>`)[0];
+                popup_193151dbc2544ee950ab292ab7cc0553.setContent(html_2e5c0b401d9ff25ed5ea8f1a81c3eafe);
+            
+        
+
+        marker_a90f409f9fa0de22d6620d767cc3e83c.bindPopup(popup_193151dbc2544ee950ab292ab7cc0553)
+        ;
+
+        
+    
+    
+            var marker_12dc7509ad45dea71dfb7633508b16a2 = L.marker(
+                [55.723795, 49.324462],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_764fb00745261c6ac7986400c2089dce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12dc7509ad45dea71dfb7633508b16a2.setIcon(icon_764fb00745261c6ac7986400c2089dce);
+        
+    
+        var popup_5a1d9f6fc457218e46b527b00d1c080c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40a642ecb34191cb535273f0c338ae9d = $(`<div id="html_40a642ecb34191cb535273f0c338ae9d" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_43</div>`)[0];
+                popup_5a1d9f6fc457218e46b527b00d1c080c.setContent(html_40a642ecb34191cb535273f0c338ae9d);
+            
+        
+
+        marker_12dc7509ad45dea71dfb7633508b16a2.bindPopup(popup_5a1d9f6fc457218e46b527b00d1c080c)
+        ;
+
+        
+    
+    
+            var marker_1fa911748c07f01453e2bd63f68739c8 = L.marker(
+                [55.716412, 49.325989],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_0d49c797db0fc8b63c4d0416df2aff4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1fa911748c07f01453e2bd63f68739c8.setIcon(icon_0d49c797db0fc8b63c4d0416df2aff4f);
+        
+    
+        var popup_93459d2e256244ad25b473f98ab6704e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ca5a48c5e304bbac74c5f8241052875 = $(`<div id="html_7ca5a48c5e304bbac74c5f8241052875" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_49_2</div>`)[0];
+                popup_93459d2e256244ad25b473f98ab6704e.setContent(html_7ca5a48c5e304bbac74c5f8241052875);
+            
+        
+
+        marker_1fa911748c07f01453e2bd63f68739c8.bindPopup(popup_93459d2e256244ad25b473f98ab6704e)
+        ;
+
+        
+    
+    
+            var marker_6035a28110b5b6b822839446b777680a = L.marker(
+                [55.722142, 49.324237],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ee9bfe890385cb90631078d42b08547b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6035a28110b5b6b822839446b777680a.setIcon(icon_ee9bfe890385cb90631078d42b08547b);
+        
+    
+        var popup_a2acedb83af2a4d04381eb166217fcc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e30621307abe93616e429faca22e83b = $(`<div id="html_3e30621307abe93616e429faca22e83b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_51_2</div>`)[0];
+                popup_a2acedb83af2a4d04381eb166217fcc2.setContent(html_3e30621307abe93616e429faca22e83b);
+            
+        
+
+        marker_6035a28110b5b6b822839446b777680a.bindPopup(popup_a2acedb83af2a4d04381eb166217fcc2)
+        ;
+
+        
+    
+    
+            var marker_e12570eb81df17227b9e05daf3555902 = L.marker(
+                [55.721873, 49.325253],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_80889a5e496d03eaa62af6b190e5bab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e12570eb81df17227b9e05daf3555902.setIcon(icon_80889a5e496d03eaa62af6b190e5bab2);
+        
+    
+        var popup_34121ac5affc5751586292e44fb5a81e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ae507a1b59d68228f0030a679d32bac = $(`<div id="html_7ae507a1b59d68228f0030a679d32bac" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_55</div>`)[0];
+                popup_34121ac5affc5751586292e44fb5a81e.setContent(html_7ae507a1b59d68228f0030a679d32bac);
+            
+        
+
+        marker_e12570eb81df17227b9e05daf3555902.bindPopup(popup_34121ac5affc5751586292e44fb5a81e)
+        ;
+
+        
+    
+    
+            var marker_12ccee930a84b07f9fa5251bb884082f = L.marker(
+                [55.717355, 49.324956],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_77d803ef56447c92668ad230d9c7aa99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12ccee930a84b07f9fa5251bb884082f.setIcon(icon_77d803ef56447c92668ad230d9c7aa99);
+        
+    
+        var popup_c33d810be9cc91619b5f21d3dbfe5d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0518b8f0abbb68b2ce4471a77f274c03 = $(`<div id="html_0518b8f0abbb68b2ce4471a77f274c03" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_23</div>`)[0];
+                popup_c33d810be9cc91619b5f21d3dbfe5d59.setContent(html_0518b8f0abbb68b2ce4471a77f274c03);
+            
+        
+
+        marker_12ccee930a84b07f9fa5251bb884082f.bindPopup(popup_c33d810be9cc91619b5f21d3dbfe5d59)
+        ;
+
+        
+    
+    
+            var marker_97061d5579cbba045d6f64ec77169665 = L.marker(
+                [55.716098, 49.325666],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_dcc6f299b2e5867c8f5091d58fcaec4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_97061d5579cbba045d6f64ec77169665.setIcon(icon_dcc6f299b2e5867c8f5091d58fcaec4a);
+        
+    
+        var popup_1219f707cc9c7561b1b2a3088e913cb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d616422dd8434e0528b7f7f0ef837ca1 = $(`<div id="html_d616422dd8434e0528b7f7f0ef837ca1" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_59</div>`)[0];
+                popup_1219f707cc9c7561b1b2a3088e913cb2.setContent(html_d616422dd8434e0528b7f7f0ef837ca1);
+            
+        
+
+        marker_97061d5579cbba045d6f64ec77169665.bindPopup(popup_1219f707cc9c7561b1b2a3088e913cb2)
+        ;
+
+        
+    
+    
+            var marker_359318be9a5c6d6ed0370e227ee11c42 = L.marker(
+                [55.72166, 49.324264],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_52e14c8f89acf9db9700eb960a028356 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_359318be9a5c6d6ed0370e227ee11c42.setIcon(icon_52e14c8f89acf9db9700eb960a028356);
+        
+    
+        var popup_1618a6b8437b006e7eba0786037a61ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_396504d55f92f250b36ba563e9ecc811 = $(`<div id="html_396504d55f92f250b36ba563e9ecc811" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_59_2</div>`)[0];
+                popup_1618a6b8437b006e7eba0786037a61ad.setContent(html_396504d55f92f250b36ba563e9ecc811);
+            
+        
+
+        marker_359318be9a5c6d6ed0370e227ee11c42.bindPopup(popup_1618a6b8437b006e7eba0786037a61ad)
+        ;
+
+        
+    
+    
+            var marker_9a428f959634843076631c39980044e0 = L.marker(
+                [55.723298, 49.323546],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_3ff384c466acfafc4a40c0c67700ade2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a428f959634843076631c39980044e0.setIcon(icon_3ff384c466acfafc4a40c0c67700ade2);
+        
+    
+        var popup_43e5728e0ea7b494f206f9268d5a76d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_230a713a0442f6a7ad7f9f1cf8f2fbe3 = $(`<div id="html_230a713a0442f6a7ad7f9f1cf8f2fbe3" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_61_2</div>`)[0];
+                popup_43e5728e0ea7b494f206f9268d5a76d4.setContent(html_230a713a0442f6a7ad7f9f1cf8f2fbe3);
+            
+        
+
+        marker_9a428f959634843076631c39980044e0.bindPopup(popup_43e5728e0ea7b494f206f9268d5a76d4)
+        ;
+
+        
+    
+    
+            var marker_9f5d925a6e84fbe6b4a418d5477a453f = L.marker(
+                [55.721468, 49.323797],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_507e5b0d1c59fba11a9380df28191b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f5d925a6e84fbe6b4a418d5477a453f.setIcon(icon_507e5b0d1c59fba11a9380df28191b3c);
+        
+    
+        var popup_c6e59a343b8bddff987557aca75db0ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8059949c96ee13e67f73b0b4c7a110f1 = $(`<div id="html_8059949c96ee13e67f73b0b4c7a110f1" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_65_2</div>`)[0];
+                popup_c6e59a343b8bddff987557aca75db0ea.setContent(html_8059949c96ee13e67f73b0b4c7a110f1);
+            
+        
+
+        marker_9f5d925a6e84fbe6b4a418d5477a453f.bindPopup(popup_c6e59a343b8bddff987557aca75db0ea)
+        ;
+
+        
+    
+    
+            var marker_559632f1bba4e2c9f7d7ea3dd232016d = L.marker(
+                [55.721417, 49.32404],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_efc4b98e510457df9c78886e90a24fa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_559632f1bba4e2c9f7d7ea3dd232016d.setIcon(icon_efc4b98e510457df9c78886e90a24fa4);
+        
+    
+        var popup_1e32b1b745cbe9fdb61df2a14499aefc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63756d9e7753c3215d34338694a8930c = $(`<div id="html_63756d9e7753c3215d34338694a8930c" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_66_2</div>`)[0];
+                popup_1e32b1b745cbe9fdb61df2a14499aefc.setContent(html_63756d9e7753c3215d34338694a8930c);
+            
+        
+
+        marker_559632f1bba4e2c9f7d7ea3dd232016d.bindPopup(popup_1e32b1b745cbe9fdb61df2a14499aefc)
+        ;
+
+        
+    
+    
+            var marker_1e6aa94ca7a6171f931bbf50e5a2699f = L.marker(
+                [55.721427, 49.32395],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_cf6c277414654f74261a664acc596a76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e6aa94ca7a6171f931bbf50e5a2699f.setIcon(icon_cf6c277414654f74261a664acc596a76);
+        
+    
+        var popup_d408b0f8e6139d845821f112a1980ff3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d6b669bd6805560e72d32b45ea19e98 = $(`<div id="html_5d6b669bd6805560e72d32b45ea19e98" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_66_1</div>`)[0];
+                popup_d408b0f8e6139d845821f112a1980ff3.setContent(html_5d6b669bd6805560e72d32b45ea19e98);
+            
+        
+
+        marker_1e6aa94ca7a6171f931bbf50e5a2699f.bindPopup(popup_d408b0f8e6139d845821f112a1980ff3)
+        ;
+
+        
+    
+    
+            var marker_33cad588b2adb162b22a0e0c2cfdf6bc = L.marker(
+                [55.721326, 49.324435],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_9c15cd5108dad097155d1550e017eec5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33cad588b2adb162b22a0e0c2cfdf6bc.setIcon(icon_9c15cd5108dad097155d1550e017eec5);
+        
+    
+        var popup_8a24870c013e27be92266758c9636a9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a37a1ec6eb623310e4a8d8dddbd0e1f = $(`<div id="html_1a37a1ec6eb623310e4a8d8dddbd0e1f" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_67а_1</div>`)[0];
+                popup_8a24870c013e27be92266758c9636a9b.setContent(html_1a37a1ec6eb623310e4a8d8dddbd0e1f);
+            
+        
+
+        marker_33cad588b2adb162b22a0e0c2cfdf6bc.bindPopup(popup_8a24870c013e27be92266758c9636a9b)
+        ;
+
+        
+    
+    
+            var marker_858db7789ba492389af1f95cab89c93a = L.marker(
+                [55.721169, 49.323582],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_780837bc3f8ef73a6260ce3f34e98eee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_858db7789ba492389af1f95cab89c93a.setIcon(icon_780837bc3f8ef73a6260ce3f34e98eee);
+        
+    
+        var popup_0080c03fa9de936afed1409a8af12dcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_138f5921611c4b2df1c005317240ba40 = $(`<div id="html_138f5921611c4b2df1c005317240ba40" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_69_2</div>`)[0];
+                popup_0080c03fa9de936afed1409a8af12dcc.setContent(html_138f5921611c4b2df1c005317240ba40);
+            
+        
+
+        marker_858db7789ba492389af1f95cab89c93a.bindPopup(popup_0080c03fa9de936afed1409a8af12dcc)
+        ;
+
+        
+    
+    
+            var marker_18b6f877dea63302e44131f8761c06b6 = L.marker(
+                [55.721062, 49.324076],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_5234bb669591ebf1e88e45cb19d9db90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18b6f877dea63302e44131f8761c06b6.setIcon(icon_5234bb669591ebf1e88e45cb19d9db90);
+        
+    
+        var popup_ae410994ee8df32fd9005f468296ff3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cde200d041c0fc7e5832f93c7a0f630 = $(`<div id="html_2cde200d041c0fc7e5832f93c7a0f630" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_70_2</div>`)[0];
+                popup_ae410994ee8df32fd9005f468296ff3d.setContent(html_2cde200d041c0fc7e5832f93c7a0f630);
+            
+        
+
+        marker_18b6f877dea63302e44131f8761c06b6.bindPopup(popup_ae410994ee8df32fd9005f468296ff3d)
+        ;
+
+        
+    
+    
+            var marker_152fc665b54930285276878bc248b30c = L.marker(
+                [55.721027, 49.324228],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_384f15eb84f19ba1ecd12f22e4f6e9c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_152fc665b54930285276878bc248b30c.setIcon(icon_384f15eb84f19ba1ecd12f22e4f6e9c6);
+        
+    
+        var popup_6b4c1016532d3b2c25c933038e48b7a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7e145ef25e1a885443d8522286d35cc = $(`<div id="html_c7e145ef25e1a885443d8522286d35cc" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_71а_1 </div>`)[0];
+                popup_6b4c1016532d3b2c25c933038e48b7a8.setContent(html_c7e145ef25e1a885443d8522286d35cc);
+            
+        
+
+        marker_152fc665b54930285276878bc248b30c.bindPopup(popup_6b4c1016532d3b2c25c933038e48b7a8)
+        ;
+
+        
+    
+    
+            var marker_94afcae9c9d17a9ed278b44dc93f2d2d = L.marker(
+                [55.721011, 49.324309],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_7b68af65f1400fe19998c1f1768d6333 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94afcae9c9d17a9ed278b44dc93f2d2d.setIcon(icon_7b68af65f1400fe19998c1f1768d6333);
+        
+    
+        var popup_e080827938e7109d010e0d58de29ec42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_565cf6b3ae32e611523cef2dce9d4f64 = $(`<div id="html_565cf6b3ae32e611523cef2dce9d4f64" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_71_2</div>`)[0];
+                popup_e080827938e7109d010e0d58de29ec42.setContent(html_565cf6b3ae32e611523cef2dce9d4f64);
+            
+        
+
+        marker_94afcae9c9d17a9ed278b44dc93f2d2d.bindPopup(popup_e080827938e7109d010e0d58de29ec42)
+        ;
+
+        
+    
+    
+            var marker_4d2a21134a07fdf937a3aae06a075047 = L.marker(
+                [55.718562, 49.322378],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c6ddc4ca7585504dbb99d44debfeb981 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4d2a21134a07fdf937a3aae06a075047.setIcon(icon_c6ddc4ca7585504dbb99d44debfeb981);
+        
+    
+        var popup_a495d9e97d31554bce93a35b0bce9265 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb5cae514573aa69bc680095b31f5dba = $(`<div id="html_fb5cae514573aa69bc680095b31f5dba" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_71_1</div>`)[0];
+                popup_a495d9e97d31554bce93a35b0bce9265.setContent(html_fb5cae514573aa69bc680095b31f5dba);
+            
+        
+
+        marker_4d2a21134a07fdf937a3aae06a075047.bindPopup(popup_a495d9e97d31554bce93a35b0bce9265)
+        ;
+
+        
+    
+    
+            var marker_a50d0408f5c6b723e6f4757c23c0856c = L.marker(
+                [55.718476, 49.321776],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c43e003b45bf63486316340fc38863b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a50d0408f5c6b723e6f4757c23c0856c.setIcon(icon_c43e003b45bf63486316340fc38863b2);
+        
+    
+        var popup_8f59fb375af722a27ccd5c5f7f4f60f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4054805adb410b304d7637dee28a2230 = $(`<div id="html_4054805adb410b304d7637dee28a2230" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_78_3</div>`)[0];
+                popup_8f59fb375af722a27ccd5c5f7f4f60f0.setContent(html_4054805adb410b304d7637dee28a2230);
+            
+        
+
+        marker_a50d0408f5c6b723e6f4757c23c0856c.bindPopup(popup_8f59fb375af722a27ccd5c5f7f4f60f0)
+        ;
+
+        
+    
+    
+            var marker_9f0128abdc867b952f2f77b561d8630d = L.marker(
+                [55.720489, 49.323348],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_2e124405c98551fee99baaa5f7d574ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9f0128abdc867b952f2f77b561d8630d.setIcon(icon_2e124405c98551fee99baaa5f7d574ac);
+        
+    
+        var popup_a6208ee85687b6c4fcfeb0cb07301d07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07cf89e749a624295b7f12194beb7e16 = $(`<div id="html_07cf89e749a624295b7f12194beb7e16" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_81_1</div>`)[0];
+                popup_a6208ee85687b6c4fcfeb0cb07301d07.setContent(html_07cf89e749a624295b7f12194beb7e16);
+            
+        
+
+        marker_9f0128abdc867b952f2f77b561d8630d.bindPopup(popup_a6208ee85687b6c4fcfeb0cb07301d07)
+        ;
+
+        
+    
+    
+            var marker_624fcf064d8e1d01cee230371e7c5203 = L.marker(
+                [55.721691, 49.3228],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_da18f2f6bf78543602fed07ceef2e34a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_624fcf064d8e1d01cee230371e7c5203.setIcon(icon_da18f2f6bf78543602fed07ceef2e34a);
+        
+    
+        var popup_b6c7d499c104d84b368d39c139f696c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a83ef47df821393b2e5dfecd2bebac2 = $(`<div id="html_5a83ef47df821393b2e5dfecd2bebac2" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_82_1</div>`)[0];
+                popup_b6c7d499c104d84b368d39c139f696c9.setContent(html_5a83ef47df821393b2e5dfecd2bebac2);
+            
+        
+
+        marker_624fcf064d8e1d01cee230371e7c5203.bindPopup(popup_b6c7d499c104d84b368d39c139f696c9)
+        ;
+
+        
+    
+    
+            var marker_9508f8c0939d7918b86d80fd5445d25a = L.marker(
+                [55.718157, 49.323177],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_8a3272267b6a8c1279468130f275ead0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9508f8c0939d7918b86d80fd5445d25a.setIcon(icon_8a3272267b6a8c1279468130f275ead0);
+        
+    
+        var popup_8370f36f7c3aa9f35a5eeb8433439448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db318d223412e7ddaf7e388466ebf8ff = $(`<div id="html_db318d223412e7ddaf7e388466ebf8ff" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_83_1</div>`)[0];
+                popup_8370f36f7c3aa9f35a5eeb8433439448.setContent(html_db318d223412e7ddaf7e388466ebf8ff);
+            
+        
+
+        marker_9508f8c0939d7918b86d80fd5445d25a.bindPopup(popup_8370f36f7c3aa9f35a5eeb8433439448)
+        ;
+
+        
+    
+    
+            var marker_88a4ed35e5650302560eac136dcb3dff = L.marker(
+                [55.721894, 49.323546],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_4a3e7cba867aa184f81a6681c9c8b88d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88a4ed35e5650302560eac136dcb3dff.setIcon(icon_4a3e7cba867aa184f81a6681c9c8b88d);
+        
+    
+        var popup_73b7f808cab26686f6fafb587448475a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc8837086e46ef41f7147302042d9fd9 = $(`<div id="html_bc8837086e46ef41f7147302042d9fd9" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_84а_1</div>`)[0];
+                popup_73b7f808cab26686f6fafb587448475a.setContent(html_bc8837086e46ef41f7147302042d9fd9);
+            
+        
+
+        marker_88a4ed35e5650302560eac136dcb3dff.bindPopup(popup_73b7f808cab26686f6fafb587448475a)
+        ;
+
+        
+    
+    
+            var marker_ae71bd068e9c60fb52f84abfc1cc794b = L.marker(
+                [55.720271, 49.324471],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_3b4e040b72026e22e7c4d493011e72fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ae71bd068e9c60fb52f84abfc1cc794b.setIcon(icon_3b4e040b72026e22e7c4d493011e72fc);
+        
+    
+        var popup_76f6a876e98d5bfac05103d1d66d5c98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1818569d16d85245bc484ccf40f806b2 = $(`<div id="html_1818569d16d85245bc484ccf40f806b2" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_84_2</div>`)[0];
+                popup_76f6a876e98d5bfac05103d1d66d5c98.setContent(html_1818569d16d85245bc484ccf40f806b2);
+            
+        
+
+        marker_ae71bd068e9c60fb52f84abfc1cc794b.bindPopup(popup_76f6a876e98d5bfac05103d1d66d5c98)
+        ;
+
+        
+    
+    
+            var marker_0f78cf78bc6be3f4af4b841279a66b82 = L.marker(
+                [55.72017, 49.325001],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_b5a016425fd956ddac9c5f13d11d6058 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0f78cf78bc6be3f4af4b841279a66b82.setIcon(icon_b5a016425fd956ddac9c5f13d11d6058);
+        
+    
+        var popup_1aad1c3ec1663ea52529e6eff16a2269 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ea42955f544a55baa788c658d48fd86 = $(`<div id="html_6ea42955f544a55baa788c658d48fd86" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_86_2</div>`)[0];
+                popup_1aad1c3ec1663ea52529e6eff16a2269.setContent(html_6ea42955f544a55baa788c658d48fd86);
+            
+        
+
+        marker_0f78cf78bc6be3f4af4b841279a66b82.bindPopup(popup_1aad1c3ec1663ea52529e6eff16a2269)
+        ;
+
+        
+    
+    
+            var marker_41700163550960741bf436e32d56f5d1 = L.marker(
+                [55.718268, 49.321165],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_18a5a5a14a44c44ee4563e38ba846d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_41700163550960741bf436e32d56f5d1.setIcon(icon_18a5a5a14a44c44ee4563e38ba846d01);
+        
+    
+        var popup_3dc16b0146305e2fb6aa535ca5defad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76195488a266f6ba45fe836a7e809117 = $(`<div id="html_76195488a266f6ba45fe836a7e809117" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_88</div>`)[0];
+                popup_3dc16b0146305e2fb6aa535ca5defad5.setContent(html_76195488a266f6ba45fe836a7e809117);
+            
+        
+
+        marker_41700163550960741bf436e32d56f5d1.bindPopup(popup_3dc16b0146305e2fb6aa535ca5defad5)
+        ;
+
+        
+    
+    
+            var marker_78dc4a4a56e13b099085010fecc1ed75 = L.marker(
+                [55.719982, 49.324157],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c2b137a0ecc47aefed62b422f84c896f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78dc4a4a56e13b099085010fecc1ed75.setIcon(icon_c2b137a0ecc47aefed62b422f84c896f);
+        
+    
+        var popup_43f07c9f5f90e62e471afe3e2c5f6c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cfe1a232cedc21a672f22d1abd8cc4e = $(`<div id="html_3cfe1a232cedc21a672f22d1abd8cc4e" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_91</div>`)[0];
+                popup_43f07c9f5f90e62e471afe3e2c5f6c09.setContent(html_3cfe1a232cedc21a672f22d1abd8cc4e);
+            
+        
+
+        marker_78dc4a4a56e13b099085010fecc1ed75.bindPopup(popup_43f07c9f5f90e62e471afe3e2c5f6c09)
+        ;
+
+        
+    
+    
+            var marker_891f8dc553e867cfb32cdcbc17be134c = L.marker(
+                [55.718025, 49.321821],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c0b1a93ab9f9e5d00ace558a92b37a42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_891f8dc553e867cfb32cdcbc17be134c.setIcon(icon_c0b1a93ab9f9e5d00ace558a92b37a42);
+        
+    
+        var popup_5b37a743fbcfc1f967b8708be5ea8414 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f48af9479da70c4d7d1dfd44f2fa9a00 = $(`<div id="html_f48af9479da70c4d7d1dfd44f2fa9a00" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_90_2</div>`)[0];
+                popup_5b37a743fbcfc1f967b8708be5ea8414.setContent(html_f48af9479da70c4d7d1dfd44f2fa9a00);
+            
+        
+
+        marker_891f8dc553e867cfb32cdcbc17be134c.bindPopup(popup_5b37a743fbcfc1f967b8708be5ea8414)
+        ;
+
+        
+    
+    
+            var marker_33dc585c18a3c73a0a1ea68fef47c103 = L.marker(
+                [55.717878, 49.322513],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c7f98ec459128dbb0f36c6459c060377 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33dc585c18a3c73a0a1ea68fef47c103.setIcon(icon_c7f98ec459128dbb0f36c6459c060377);
+        
+    
+        var popup_88da5408bd1437dfc18d923157923c7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21fa22e74dedd82f109bf5361a63d95b = $(`<div id="html_21fa22e74dedd82f109bf5361a63d95b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_92_2</div>`)[0];
+                popup_88da5408bd1437dfc18d923157923c7f.setContent(html_21fa22e74dedd82f109bf5361a63d95b);
+            
+        
+
+        marker_33dc585c18a3c73a0a1ea68fef47c103.bindPopup(popup_88da5408bd1437dfc18d923157923c7f)
+        ;
+
+        
+    
+    
+            var marker_af0d987a7f143ab207873298cd6b385a = L.marker(
+                [55.717766, 49.322629],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_1cc98cfc36c103db0de083966a2ffe78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af0d987a7f143ab207873298cd6b385a.setIcon(icon_1cc98cfc36c103db0de083966a2ffe78);
+        
+    
+        var popup_e1f8834dfe5b5a076c1657b0fdcfcf5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30c5b1fb345bd0a9e51e0827b7144279 = $(`<div id="html_30c5b1fb345bd0a9e51e0827b7144279" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_93_1</div>`)[0];
+                popup_e1f8834dfe5b5a076c1657b0fdcfcf5c.setContent(html_30c5b1fb345bd0a9e51e0827b7144279);
+            
+        
+
+        marker_af0d987a7f143ab207873298cd6b385a.bindPopup(popup_e1f8834dfe5b5a076c1657b0fdcfcf5c)
+        ;
+
+        
+    
+    
+            var marker_4ad098b653c2889e8b288660f3f71a1f = L.marker(
+                [55.717746, 49.32271],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ca8991afe693d33c30cbe17f2cef75a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ad098b653c2889e8b288660f3f71a1f.setIcon(icon_ca8991afe693d33c30cbe17f2cef75a7);
+        
+    
+        var popup_4a8f951a3cf9a8e2295c73647c8b293c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab419419ab2dadbd653468b1feb3d07b = $(`<div id="html_ab419419ab2dadbd653468b1feb3d07b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_93_2</div>`)[0];
+                popup_4a8f951a3cf9a8e2295c73647c8b293c.setContent(html_ab419419ab2dadbd653468b1feb3d07b);
+            
+        
+
+        marker_4ad098b653c2889e8b288660f3f71a1f.bindPopup(popup_4a8f951a3cf9a8e2295c73647c8b293c)
+        ;
+
+        
+    
+    
+            var marker_6dc4d29e51cceeb8341eb79f425bbc51 = L.marker(
+                [55.719723, 49.323716],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_f01f13eb10d4f279acfb1bbcc37c1efa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dc4d29e51cceeb8341eb79f425bbc51.setIcon(icon_f01f13eb10d4f279acfb1bbcc37c1efa);
+        
+    
+        var popup_78427b283e56a9d6a077b5bfc789b990 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd556f2a871832822b9ab2b7e511fd5b = $(`<div id="html_dd556f2a871832822b9ab2b7e511fd5b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_97</div>`)[0];
+                popup_78427b283e56a9d6a077b5bfc789b990.setContent(html_dd556f2a871832822b9ab2b7e511fd5b);
+            
+        
+
+        marker_6dc4d29e51cceeb8341eb79f425bbc51.bindPopup(popup_78427b283e56a9d6a077b5bfc789b990)
+        ;
+
+        
+    
+    
+            var marker_06152daacb8e6cc0340f819cffbb55ab = L.marker(
+                [55.721128, 49.322091],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c07bb367e4bdbda8d8c37650f02aea70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06152daacb8e6cc0340f819cffbb55ab.setIcon(icon_c07bb367e4bdbda8d8c37650f02aea70);
+        
+    
+        var popup_7e7ac74714aedf5f14c73f9fb3d6d1f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_974ea0a9114cf60d38ef3df8ce1acf43 = $(`<div id="html_974ea0a9114cf60d38ef3df8ce1acf43" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_101_1</div>`)[0];
+                popup_7e7ac74714aedf5f14c73f9fb3d6d1f4.setContent(html_974ea0a9114cf60d38ef3df8ce1acf43);
+            
+        
+
+        marker_06152daacb8e6cc0340f819cffbb55ab.bindPopup(popup_7e7ac74714aedf5f14c73f9fb3d6d1f4)
+        ;
+
+        
+    
+    
+            var marker_0cd87344da760bedc9f77059c8070ad2 = L.marker(
+                [55.721108, 49.322171],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_5e920a7da855c7dc8c75e22014f00d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0cd87344da760bedc9f77059c8070ad2.setIcon(icon_5e920a7da855c7dc8c75e22014f00d32);
+        
+    
+        var popup_8a1c848ce4573feb5c556cca74266be4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55966dfc3720ddf6207b388a6e546f54 = $(`<div id="html_55966dfc3720ddf6207b388a6e546f54" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_101_2</div>`)[0];
+                popup_8a1c848ce4573feb5c556cca74266be4.setContent(html_55966dfc3720ddf6207b388a6e546f54);
+            
+        
+
+        marker_0cd87344da760bedc9f77059c8070ad2.bindPopup(popup_8a1c848ce4573feb5c556cca74266be4)
+        ;
+
+        
+    
+    
+            var marker_24f587b6ac984de9e287e0894d0ef9b7 = L.marker(
+                [55.717503, 49.32254],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_ab95bcb4a05ab009eab05a459d4ab380 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_24f587b6ac984de9e287e0894d0ef9b7.setIcon(icon_ab95bcb4a05ab009eab05a459d4ab380);
+        
+    
+        var popup_86068ca1ad523016942671410793a1c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0ad32b8b927ccbbf71dfabdff233a57 = $(`<div id="html_a0ad32b8b927ccbbf71dfabdff233a57" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_103_2</div>`)[0];
+                popup_86068ca1ad523016942671410793a1c1.setContent(html_a0ad32b8b927ccbbf71dfabdff233a57);
+            
+        
+
+        marker_24f587b6ac984de9e287e0894d0ef9b7.bindPopup(popup_86068ca1ad523016942671410793a1c1)
+        ;
+
+        
+    
+    
+            var marker_eaf4f3729dfb8d48c8b8a5542398f3fa = L.marker(
+                [55.720935, 49.322962],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_833a9f9a669e88b5d1635c76259873a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eaf4f3729dfb8d48c8b8a5542398f3fa.setIcon(icon_833a9f9a669e88b5d1635c76259873a2);
+        
+    
+        var popup_d9fffca38013e793b3e2c8db1856e7ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bedb6deb4a88d90b24c3ab23616320b = $(`<div id="html_8bedb6deb4a88d90b24c3ab23616320b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_104_2</div>`)[0];
+                popup_d9fffca38013e793b3e2c8db1856e7ac.setContent(html_8bedb6deb4a88d90b24c3ab23616320b);
+            
+        
+
+        marker_eaf4f3729dfb8d48c8b8a5542398f3fa.bindPopup(popup_d9fffca38013e793b3e2c8db1856e7ac)
+        ;
+
+        
+    
+    
+            var marker_b5c52b39f51a437ea47a188daae2e526 = L.marker(
+                [55.717386, 49.323043],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_e3c8a87eb9016f3ac7c0038da3bcceb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b5c52b39f51a437ea47a188daae2e526.setIcon(icon_e3c8a87eb9016f3ac7c0038da3bcceb9);
+        
+    
+        var popup_dfa2b9e66de79a2aedc3a38bca4e65fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43bd7f10240cb45c3b23373d0cfa511b = $(`<div id="html_43bd7f10240cb45c3b23373d0cfa511b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_105_2</div>`)[0];
+                popup_dfa2b9e66de79a2aedc3a38bca4e65fa.setContent(html_43bd7f10240cb45c3b23373d0cfa511b);
+            
+        
+
+        marker_b5c52b39f51a437ea47a188daae2e526.bindPopup(popup_dfa2b9e66de79a2aedc3a38bca4e65fa)
+        ;
+
+        
+    
+    
+            var marker_60ea69dba5f0cb898a9725e657b1121e = L.marker(
+                [55.717974, 49.325091],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_e1dfaec2c4ebee85bf25a62a9d1381c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_60ea69dba5f0cb898a9725e657b1121e.setIcon(icon_e1dfaec2c4ebee85bf25a62a9d1381c3);
+        
+    
+        var popup_16cf4d7088502b9f25375a74612a12e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_924a05ebe9acb53290f68ba252acb677 = $(`<div id="html_924a05ebe9acb53290f68ba252acb677" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 24_2_аллея</div>`)[0];
+                popup_16cf4d7088502b9f25375a74612a12e6.setContent(html_924a05ebe9acb53290f68ba252acb677);
+            
+        
+
+        marker_60ea69dba5f0cb898a9725e657b1121e.bindPopup(popup_16cf4d7088502b9f25375a74612a12e6)
+        ;
+
+        
+    
+    
+            var marker_5660a21e20bec8c5539221fc7291d9bd = L.marker(
+                [55.718583, 49.324228],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_c3001ccbe55950f9e7358155466fe705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5660a21e20bec8c5539221fc7291d9bd.setIcon(icon_c3001ccbe55950f9e7358155466fe705);
+        
+    
+        var popup_f4a9762417b36af8fd4ead7bdc237426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c48136e05b6b04d592bc87bd6129e8c4 = $(`<div id="html_c48136e05b6b04d592bc87bd6129e8c4" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 9_аллея</div>`)[0];
+                popup_f4a9762417b36af8fd4ead7bdc237426.setContent(html_c48136e05b6b04d592bc87bd6129e8c4);
+            
+        
+
+        marker_5660a21e20bec8c5539221fc7291d9bd.bindPopup(popup_f4a9762417b36af8fd4ead7bdc237426)
+        ;
+
+        
+    
+    
+            var marker_5abccc44cb9fef9705201bf319b119e6 = L.marker(
+                [55.720499, 49.321722],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_633abc958e8b56215613643e4aad1309 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5abccc44cb9fef9705201bf319b119e6.setIcon(icon_633abc958e8b56215613643e4aad1309);
+        
+    
+        var popup_264af64259991c6434b1010a62b0b134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f55e7ad6e19795a78f83749da4b4dd6 = $(`<div id="html_2f55e7ad6e19795a78f83749da4b4dd6" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_122_1</div>`)[0];
+                popup_264af64259991c6434b1010a62b0b134.setContent(html_2f55e7ad6e19795a78f83749da4b4dd6);
+            
+        
+
+        marker_5abccc44cb9fef9705201bf319b119e6.bindPopup(popup_264af64259991c6434b1010a62b0b134)
+        ;
+
+        
+    
+    
+            var marker_a278460b53cd1954509d163d078909f0 = L.marker(
+                [55.720641, 49.321022],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_42a32c86f4d1f8a4145e6822355d07c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a278460b53cd1954509d163d078909f0.setIcon(icon_42a32c86f4d1f8a4145e6822355d07c2);
+        
+    
+        var popup_92ffbe17124e6adacdfe8ae50c6c7cc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f92f56c09eeeec9fff383ecba8aaa13d = $(`<div id="html_f92f56c09eeeec9fff383ecba8aaa13d" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_119</div>`)[0];
+                popup_92ffbe17124e6adacdfe8ae50c6c7cc7.setContent(html_f92f56c09eeeec9fff383ecba8aaa13d);
+            
+        
+
+        marker_a278460b53cd1954509d163d078909f0.bindPopup(popup_92ffbe17124e6adacdfe8ae50c6c7cc7)
+        ;
+
+        
+    
+    
+            var marker_035588fb5ec8239685915bf01d776141 = L.marker(
+                [55.718872, 49.322621],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_4dea647155aac64f8e2f8e1087a80c13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_035588fb5ec8239685915bf01d776141.setIcon(icon_4dea647155aac64f8e2f8e1087a80c13);
+        
+    
+        var popup_a7a5cdc5454dcc2a01489022d745b993 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56663a51a79d56f91161477d0177b811 = $(`<div id="html_56663a51a79d56f91161477d0177b811" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 25_120_2</div>`)[0];
+                popup_a7a5cdc5454dcc2a01489022d745b993.setContent(html_56663a51a79d56f91161477d0177b811);
+            
+        
+
+        marker_035588fb5ec8239685915bf01d776141.bindPopup(popup_a7a5cdc5454dcc2a01489022d745b993)
+        ;
+
+        
+    
+    
+            var marker_db547d3406bd55b88d9944a652a5d2b9 = L.marker(
+                [55.71944, 49.326133],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_1724bd63965814a39f6ac0b1d5d1ce2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_db547d3406bd55b88d9944a652a5d2b9.setIcon(icon_1724bd63965814a39f6ac0b1d5d1ce2a);
+        
+    
+        var popup_dc346faf2c75975c6971de4504bdb0bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26ddc295d83adf73dcb296b387cd8d5d = $(`<div id="html_26ddc295d83adf73dcb296b387cd8d5d" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: Татарстан_38_1</div>`)[0];
+                popup_dc346faf2c75975c6971de4504bdb0bc.setContent(html_26ddc295d83adf73dcb296b387cd8d5d);
+            
+        
+
+        marker_db547d3406bd55b88d9944a652a5d2b9.bindPopup(popup_dc346faf2c75975c6971de4504bdb0bc)
+        ;
+
+        
+    
+    
+            var marker_592898ba6762ebc83cbbbc8ef800883d = L.marker(
+                [55.717979, 49.327813],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_e9385a58a11071824e4311593ceef7a3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_592898ba6762ebc83cbbbc8ef800883d.setIcon(icon_e9385a58a11071824e4311593ceef7a3);
+        
+    
+        var popup_77ad3f762f2d965a365e182e7f24cbfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e353c62bfa1c4827bcf93191130a667c = $(`<div id="html_e353c62bfa1c4827bcf93191130a667c" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: Родниковая</div>`)[0];
+                popup_77ad3f762f2d965a365e182e7f24cbfb.setContent(html_e353c62bfa1c4827bcf93191130a667c);
+            
+        
+
+        marker_592898ba6762ebc83cbbbc8ef800883d.bindPopup(popup_77ad3f762f2d965a365e182e7f24cbfb)
+        ;
+
+        
+    
+    
+            var marker_6c0535697a0a0adcff95613211c75b08 = L.marker(
+                [55.720484, 49.321812],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_d05c0c5fdce78289ae94d8c2364779f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6c0535697a0a0adcff95613211c75b08.setIcon(icon_d05c0c5fdce78289ae94d8c2364779f8);
+        
+    
+        var popup_574acfb1cc86f732b3fa21db1cfc778a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03316ffaf4ec1d9b46ac4dde5267536b = $(`<div id="html_03316ffaf4ec1d9b46ac4dde5267536b" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_122_2</div>`)[0];
+                popup_574acfb1cc86f732b3fa21db1cfc778a.setContent(html_03316ffaf4ec1d9b46ac4dde5267536b);
+            
+        
+
+        marker_6c0535697a0a0adcff95613211c75b08.bindPopup(popup_574acfb1cc86f732b3fa21db1cfc778a)
+        ;
+
+        
+    
+    
+            var marker_6015fb149d2f1e1fc8498575e120c8b3 = L.marker(
+                [55.720043, 49.322234],
+                {}
+            ).addTo(map_abc96a94732f915b57de45458b0fc59d);
+        
+    
+            var icon_20b9d5234fd1f8d638b10bd763cc5cea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6015fb149d2f1e1fc8498575e120c8b3.setIcon(icon_20b9d5234fd1f8d638b10bd763cc5cea);
+        
+    
+        var popup_ee76af4e2f7af0ab2311d371000226e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2878379cb5943372af09bd2c10d75d7d = $(`<div id="html_2878379cb5943372af09bd2c10d75d7d" style="width: 100.0%; height: 100.0%;">Имя: Не известен Адрес: 27_133_2</div>`)[0];
+                popup_ee76af4e2f7af0ab2311d371000226e3.setContent(html_2878379cb5943372af09bd2c10d75d7d);
+            
+        
+
+        marker_6015fb149d2f1e1fc8498575e120c8b3.bindPopup(popup_ee76af4e2f7af0ab2311d371000226e3)
+        ;
+
+        
+    
+</script>
+</html>
